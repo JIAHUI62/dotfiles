@@ -42,6 +42,11 @@ local plugins = {
         dependencies = { "rafamadriz/friendly-snippets" },
     },
     "windwp/nvim-autopairs",
+    {
+        'akinsho/toggleterm.nvim',
+        version = "*",
+        config = true
+    },
    
 }
 
